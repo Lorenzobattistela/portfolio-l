@@ -2,15 +2,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3C3744;
     padding: 0 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 
     .navbar_logo {
         img {
             height: 100px;
             width: 100px;
+        }
+    }
+
+    .sect_links {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+
+        .sect_link {
+           margin-left: 2.5rem;
+           margin-right: 2.5rem;
         }
     }
 }
