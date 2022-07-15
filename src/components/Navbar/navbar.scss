@@ -4,25 +4,92 @@
     align-items: center;
     padding: 0 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: #033249;
+    
 
     .navbar_logo {
         img {
-            height: 100px;
-            width: 100px;
+            height: 80px;
+            width: 80px;
         }
     }
 
     .sect_links {
         display: flex;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+
+        .icon {
+            width: 40px;
+            height: 40px;
+        }
 
         .sect_link {
-           margin-left: 2.5rem;
-           margin-right: 2.5rem;
+            margin-left: 2.5rem;
+            margin-right: 2.5rem;
+
+            .link {
+                display: inline-block;
+                text-decoration: none;
+                color: inherit;
+                cursor: pointer;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    h1 {
+                        margin-left: 1rem;;
+                    }
+                }
+            }
+
+            .link:after {
+                content: "";
+                display: block;
+                width: 0;
+                border-bottom: 3px solid #ffd700;
+                border-radius: 10px;
+                margin: 0 auto;
+                transition:all 0.3s linear 0s;
+            }
+
+            .link:hover:after {
+                width: 100%;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+
+        .navbar_logo {
+            img {
+                display: none;
+            }
+        }
+        
+        .sect_links {
+            font-size: 0.9rem;
+
+            .sect_link {
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+
+                .link {
+                    div {
+                        .icon {
+                            display: none;
+                        }
+                        
+                    }
+                }
+            }
         }
     }
 }
+    

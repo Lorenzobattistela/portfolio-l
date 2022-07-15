@@ -15,7 +15,7 @@ const Layout = () => {
         alpha: [0.6, 0],
         scale: [.1, 0.4],
         position: "all",
-        color: "#000",
+        color: "#033249",
         cross: "dead",
         // emitter: "follow",
         random: 15
@@ -39,7 +39,6 @@ const Layout = () => {
       }
     return(
         <>  
-          
             <ParticlesBg type="custom" config={config} bg={true} />
             <Navbar />
             <Outlet />
