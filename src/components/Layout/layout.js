@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../Navbar/navbar";
 import "./layout.scss";
 import ParticlesBg from "particles-bg";
-
+import Footer from "../Footer/footer";
 
 const Layout = () => {
     let config = {
@@ -42,6 +42,7 @@ const Layout = () => {
             <ParticlesBg type="custom" config={config} bg={true} />
             <Navbar />
             <Outlet />
+            <Footer />
         </>
     )
 }
