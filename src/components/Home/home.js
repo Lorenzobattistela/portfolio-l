@@ -1,6 +1,6 @@
 import "./home.scss";
 import React, { useState, useEffect } from "react"
-import Laptop from "../../assets/person.png"
+import Person from "../../assets/person.png"
 
 const Home = () => {
     const [text, setText] = useState("")
@@ -42,7 +42,7 @@ const Home = () => {
                 <h2>{text}<span className="input-cursor"></span></h2>
             </div>
             <div className="img_div">
-                <img className="spin_laptop" src={Laptop}/>
+                <img className="person_img" src={Person}/>
             </div>
         </div>
     )

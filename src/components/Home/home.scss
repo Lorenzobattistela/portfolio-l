@@ -13,6 +13,7 @@
     }
 
     .text_div {
+        margin-left: 2rem;
         display: block;
         font-size: 2rem;
         h1 {
@@ -51,4 +52,20 @@
   }
   .input-cursor { 
   animation: blink .6s linear infinite alternate;
+}
+
+@media screen and (max-width: 768px) {
+    .home_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .text_div {
+            font-size: 1.3rem;
+        }
+        .img_div {
+            img {
+                display: none;
+            }
+        }
+    }
 }
