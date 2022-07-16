@@ -16,7 +16,7 @@ const Home = () => {
             setIndex(index + 1)
           }, 100)
         }
-        if(index == fullText.length){
+        if(index === fullText.length){
             setTimeout(()=> {
                 setIndex(0);
                 setText("")
@@ -32,8 +32,6 @@ const Home = () => {
         }
       }, [index])
 
-    
-    
     return(
         <div className="home_container">
             <div className="text_div">
