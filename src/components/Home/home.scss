@@ -1,9 +1,31 @@
 
 .home_container {
-    h1 {
-        span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    .img_div {
+        img {
+            height: 500px;
+            width: 500px;
+        }
+    }
+
+    .text_div {
+        display: block;
+        font-size: 2rem;
+        h1 {
+            span {
+                color: #ffd700;
+            }
+        }
+        h2 {
+            position: fixed;
             color: #ffd700;
         }
+
+        margin-bottom: 5rem;
     }
 }
 
@@ -16,7 +38,7 @@
 .input-cursor {
     display: inline-block;
     width: 2px;
-    height: 42px;
+    height: 3rem;
     background-color: white;
     margin-left: 8px;
 }
