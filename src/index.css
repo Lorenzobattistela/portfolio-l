@@ -10,7 +10,6 @@ body {
   color: #FBFFF1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
   display: block;
   scroll-behavior: smooth;
 }
