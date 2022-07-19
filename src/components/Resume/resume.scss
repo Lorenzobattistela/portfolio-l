@@ -1,0 +1,48 @@
+.resume_div {
+    .download_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            text-decoration: none;
+        }
+        button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0.7rem 3rem 0.7rem 3rem;
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            background-color: #05618f;
+            border: none;
+            border-radius: 4px;
+            color: #ffd700;
+            font-weight: bold;
+            &:hover {
+                background-color: #077cb6;
+                cursor: pointer;
+            }
+        
+            .icon {
+                height: 30px;
+                width: 30px;
+                margin-right: 1rem;
+                color: #ffd700;
+            }
+        } 
+        
+    }
+
+    .resume_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        img {
+            width: 70%;
+        }
+    }
+}
