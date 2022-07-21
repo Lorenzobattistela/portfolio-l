@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './components/Layout/layout';
 import Home from './components/Home/home';
 import Resume from "./components/Resume/resume";
+import About from './components/About/about';
 
 export default function App() {
   return(
@@ -14,6 +15,7 @@ export default function App() {
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path="/resume" element={<Resume/>}/>
+          <Route path='/about' element={<About/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
