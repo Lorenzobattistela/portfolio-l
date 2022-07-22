@@ -50,12 +50,12 @@ const Navbar = () => {
                         </Link>
                     </div>
                     <div className='sect_link'> 
-                        <Link className='link' to='/blog'>
+                        <a className='link' target='_blank' href='https://lorenzobattistela.github.io/personal-blog/'>
                             <div>
                                 <Blog className='icon'/>
                                 <h1>Blog</h1>
                             </div>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </nav>
