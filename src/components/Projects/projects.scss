@@ -1,0 +1,106 @@
+.div_projects {
+
+    .projects_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            color: #ffd700;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+        
+        p {
+            font-size: 2rem;
+        }
+    }
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+    
+    .projects_container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+
+        .card {
+            border: 2px solid #ffd700;
+            width: 350px;
+            height: 500px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: transform .2s; 
+
+            
+            h1 {
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            img {
+                width: 70%;
+                height: 50%;
+            }
+
+            &:hover {
+                transform: scale(1.07);
+            }
+
+            p {
+                font-size: 1.4rem;
+                text-align: justify;
+                margin: 1rem 1rem 1rem 1rem;
+               
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .div_projects {
+        .projects_text {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                text-align: center;
+            }
+        }
+
+        .projects_container {
+
+            .card {
+                justify-content: flex-end;
+                width: 120px;
+                height:450px;
+
+                img {
+                    display: none;
+                }
+                h1 {
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+    
