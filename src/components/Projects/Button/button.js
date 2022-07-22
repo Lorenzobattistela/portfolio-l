@@ -1,12 +1,12 @@
 import "./button.scss";
 import { Github } from "styled-icons/boxicons-logos";
 
-const Button = () => {
+const Button = (props) => {
     return(
-        <a href="" target="_blank">
+        <a href={props.link} target="_blank">
             <button className="github-button">
-            <Github class="icon"/>
-            Github
+                <Github className="icon" size={30}/>
+                <p>Github</p>
             </button>    
         </a>
     )

@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+    .github-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 1.5rem 0 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        background-color: #033249;
+        border-radius: 5px;
+        border: solid 1px #ffd700;
+
+        .icon {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        &:hover {
+            background-color: #005783;
+            box-shadow: #ffd700 0 0 0.5rem;
+        }
+    }
+}
