@@ -66,3 +66,41 @@
 
     }
 }
+
+@media screen and (max-width: 768px) {
+    .div_projects {
+        .projects_text {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                text-align: center;
+            }
+        }
+
+        .projects_container {
+
+            .card {
+                justify-content: flex-end;
+                width: 120px;
+                height:450px;
+
+                img {
+                    display: none;
+                }
+                h1 {
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+    

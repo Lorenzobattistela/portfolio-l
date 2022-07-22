@@ -21,13 +21,13 @@ const Projects = () => {
                 <div className="card">
                     <h1>Finance - Financial Manager</h1>
                     <img src={finance}/> 
-                    <p>Financial manager where it is possible to control your personal finance by adding your investments and track your profit. For fixed investments, you can project your profit for the next month. It generates a report with real time information when you run it. Terminal based application that generates HTML page.</p>
+                    <p>Financial manager where it is possible to control your personal finance by adding your investments and track your profit. For fixed investments, you can project your profit for the next month. It generates a report with real time information when you run it. Terminal based application that generates HTML page, on local network.</p>
                     <Button link="https://github.com/Lorenzobattistela/finance"/>
                 </div>
                 <div className="card">
                     <h1>Python Projects</h1>
                     <img/>
-                    <p>Here are some projects that I have done with Python for practice. This repo includes a currency converter, email slicer, music player, password generator, snake game and rock paper scissors game. Those projects were done to practice fundamentals of python coding language.</p>
+                    <p>Here are some projects that I have done with Python for practice. This repo includes a currency converter, email slicer, music player, password generator, snake game and rock paper scissors game. Those projects were done to practice fundamentals of python coding language. You can test it by cloning the repository. More on README.</p>
                     <Button link="https://github.com/Lorenzobattistela/python-projects"/>
                 </div>
             </div>
@@ -36,7 +36,7 @@ const Projects = () => {
                 <div className="card">
                     <h1>This Portfolio</h1>
                     <img/>
-                    <p>This Portfolio was entirely developed by me. It consists on a React App combined with Sass for styling. The design is inspired in <a>this portfolio</a>. Project developed to share my qualifications and projects for possible recruiters.</p>
+                    <p>This Portfolio was entirely developed by me. It consists on a React App combined with Sass for styling. The design is inspired in <a>this portfolio</a>. Project developed to share my qualifications and projects for possible recruiters and to anyone who wants to know more about me and my professional developer path.</p>
                     <Button link="https://github.com/Lorenzobattistela/portfolio-l"/>
                 </div>
             </div>
