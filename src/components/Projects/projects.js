@@ -39,8 +39,6 @@ const Projects = () => {
                     <p>This Portfolio was entirely developed by me. It consists on a React App combined with Sass for styling. The design is inspired in <a>this portfolio</a>. Project developed to share my qualifications and projects for possible recruiters.</p>
                     <Button link="https://github.com/Lorenzobattistela/portfolio-l"/>
                 </div>
-                <div className="card"><h1>card</h1></div>
-                <div className="card"><h1>card</h1></div>
             </div>
         </div>
     )
