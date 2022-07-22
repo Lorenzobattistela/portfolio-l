@@ -6,7 +6,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './components/Layout/layout';
 import Home from './components/Home/home';
 import Resume from "./components/Resume/resume";
+<<<<<<< HEAD
 import About from './components/About/about';
+=======
+>>>>>>> c96e58041355322d4081fdaccf32ec4284a3ad4e
 import Projects from './components/Projects/projects';
 
 export default function App() {
@@ -16,7 +19,10 @@ export default function App() {
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path="/resume" element={<Resume/>}/>
+<<<<<<< HEAD
           <Route path='/about' element={<About/>}/>
+=======
+>>>>>>> c96e58041355322d4081fdaccf32ec4284a3ad4e
           <Route path="/projects" element={<Projects/>}/>
         </Route>
       </Routes>
